@@ -1,7 +1,20 @@
+/* Set the height to 100vh to vertically align the cards */
 html {
     height: 100vh;   
 }
 
 #main {
     height: 100vh;
+}
+
+/* Filping team one in small screen */
+
+#team-one {
+    transition: transform 1s;
+}
+
+@media (max-width: 600px) {
+    #team-one {
+        transform: rotate(180deg);
+    }
 }
