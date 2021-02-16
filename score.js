@@ -48,7 +48,6 @@ function decreaseScore(team) {
 }
 
 
-
 team1.increaseButton.addEventListener('click', () => {
     increaseScore(team1, team2);
 })
