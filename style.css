@@ -13,11 +13,17 @@ html {
     transition: transform 1s;
 }
 
-@media (max-width: 600px) {
-    #team-one {
-        transform: rotate(180deg);
-    }
+.rotate {
+  transition: transform 1s;
+  transform: rotate(180deg);
 }
+
+.rotateBack {
+  transition: transform 1s;
+  transform: rotate(360deg);
+}
+
+
 
 input[type="text"]
 {
